@@ -25,7 +25,6 @@
                                         class="fa-solid fa-plus"></i> follow</span></h4>
                             <p>Innovative design Thinker | Innovative creative thinker | Good communicator</p>
                         </div>
-
                     </div>
                     <p class="date">
                         June 27, 2023

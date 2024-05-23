@@ -3,3 +3,4 @@ document.getElementById('comment-btn').addEventListener('click', function() {
     commentInput.scrollIntoView({ behavior: 'smooth' });
     commentInput.focus();
 });
+

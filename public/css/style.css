@@ -3,10 +3,33 @@
 /*
   -- style home page
 */
+.navbar {
+    padding: 10px 40px;
+    border-bottom:1px solid black;
+}
+
+.navbar  img{
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
 .home .articles {
     display: flex;
     justify-content: center;
 }
+
+.home .card a {
+    text-decoration: none;
+}
+
+.home .posted-by img{
+    border-radius: 10px;
+ }
+
+ .home .posted-by .posted-by-title strong{
+    font-size: 13px;
+ }
 
 
 /*
@@ -147,3 +170,66 @@
 /* .single-article .article  .head img{
 
 } */
+
+/*
+  -- style user  reg
+*/
+
+/*
+  -- style user  login
+*/
+.login .btn-google {
+    background-color: #db4437;
+    color: white;
+}
+
+.login .btn-google:hover {
+    background-color: #c33c28;
+    color: white;
+}
+
+/*
+  -- style user  profile
+*/
+.profile .card {
+    margin-bottom: 20px;
+}
+
+.profile   .card-title {
+    margin-bottom: 0;
+}
+
+.profile  .card-text {
+    margin-bottom: 20px;
+}
+
+.profile  .social-links .btn {
+    margin: 5px;
+}
+
+.profile  .followers-info {
+    margin-top: 15px;
+}
+
+.profile  .followers-info p {
+    margin-bottom: 5px;
+}
+
+.profile  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile   .list-group-item h5 {
+    margin-bottom: 0;
+}
+
+.profile  .list-group-item p {
+    margin-bottom: 0;
+}
+
+.profile  blockquote {
+    margin: 0;
+}
+
