@@ -1,0 +1,149 @@
+
+
+/*
+  -- style home page
+*/
+.home .articles {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*
+  -- style  single article
+*/
+.single-article  .article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.single-article  .article .posted-by{
+    display: flex;
+}
+
+.single-article  .article .posted-by img{
+   border-radius: 10px;
+}
+
+.single-article  .article .posted-by .follow{
+     border-radius: 5px;
+     border: 2px solid blue;
+     font-size: 15px;
+     cursor: pointer;
+ }
+
+ .single-article  .article .posted-by .articles-count{
+    font-size: 15px;
+}
+
+.single-article  .article  .article-start{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.single-article  .article  .article-content{
+    font-size: 18px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #e9ecef;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #e9ecef;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+}
+
+.action-buttons button {
+    flex: 1;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    color: #6c757d;
+    font-size: 16px;
+    padding: 10px;
+    transition: color 0.3s, transform 0.2s;
+    cursor: pointer;
+}
+
+.action-buttons button:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}
+
+.action-buttons i {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+/* Add focus styles for accessibility */
+.action-buttons button:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+    color: #0056b3;
+}
+
+/* Make buttons visually distinct */
+.action-buttons button:nth-child(1) i {
+    color: #28a745; /* Green for Like */
+}
+
+.action-buttons button:nth-child(2) i {
+    color: #ffc107; /* Yellow for Comment */
+}
+
+.action-buttons button:nth-child(3) i {
+    color: #17a2b8; /* Cyan for Share */
+}
+
+.comment-section {
+    padding: 10px 0;
+}
+
+.user-comment {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #e9ecef;
+    padding-top: 10px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#comment-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+#comment-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+
+/* .single-article .article  .head img{
+
+} */
